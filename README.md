@@ -20,4 +20,23 @@ For the methodology, see the paper: [Neural Networks, 2025](https://www.scienced
 - [PyTorch](https://pytorch.org/)
 - [SpikingJelly](https://github.com/fangwei123456/spikingjelly)
 
+  **Paper Details:**
+
+[<button>PDF</button>](https://www.sciencedirect.com/science/article/pii/S0893608025000334)  
+<button onclick="showBibtex('bib1')">Cite</button>
+
+<div id="bib1" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%); background:#fff; border:1px solid #ccc; padding:1em; z-index:100; max-width:600px;">
+  <pre id="txt1" style="white-space:pre-wrap;">
+@ARTICLE{sun2025parameterfree,
+  author={Sun, Pengfei and Wu, Jibin and Devos, Paul and Botteldooren, Dick},
+  title={Towards parameter-free attentional spiking neural networks},
+  journal={Neural Networks},
+  year={2025},
+  volume={185},
+  pages={107154},
+  doi={10.1016/j.neunet.2025.107154}}
+  </pre>
+</div>
+
+
 
