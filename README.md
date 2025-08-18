@@ -20,7 +20,7 @@ For the methodology, see the paper: [Neural Networks, 2025](https://www.scienced
 - [PyTorch](https://pytorch.org/)
 - [SpikingJelly](https://github.com/fangwei123456/spikingjelly)
 
-  **Paper Details:**
+## **Paper Details:**
 
 [<button>PDF</button>](https://www.sciencedirect.com/science/article/pii/S0893608025000334)  
 <button onclick="showBibtex('bib1')">Cite</button>
