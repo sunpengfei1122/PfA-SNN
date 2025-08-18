@@ -1,7 +1,11 @@
 # PfA-SNN
+**Parameter-free Attention (PfA)** for Spiking Neural Networks, with a complete **CIFAR-10** example.  
+The core module is implemented as `atten_pfa()`, which can be dropped into other frameworks with minimal changes.
 
-Parameter-free Attention (PfA) for Spiking Neural Networks with a complete CIFAR-10 example.  
-The core module is implemented as `atten_pfa()`, which you can drop into other frameworks with minimal changes. For the spiking fully-connected layer (Usually utilized in spiking audio datasets, like SHD and SSC), you can set the height (H)  to the number of hidden neurons and the width (W) to 1.
+**Note for spiking fully-connected (FC) layers**  
+(typically used in spiking audio datasets such as **SHD** and **SSC**):  
+you can reshape the input so that the **height `H` equals the number of hidden neurons** and the **width `W` equals `1`**. This lets `atten_pfa()` operate on FC layers in the same way it does on convolutional feature maps.
+
 
 ---
 
