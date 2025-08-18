@@ -1,7 +1,7 @@
 # PfA-SNN
 
 Parameter-free Attention (PfA) for Spiking Neural Networks with a complete CIFAR-10 example.  
-The core module is implemented as `atten_pfa()`, which you can drop into other frameworks with minimal changes. For the FC layer, you can set the height (H) and weight (W) as 1.
+The core module is implemented as `atten_pfa()`, which you can drop into other frameworks with minimal changes. For the FC layer, you can set the height (H) and weight (W) to 1.
 
 ---
 
